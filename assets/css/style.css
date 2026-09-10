@@ -108,7 +108,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
   .nav-toggle[aria-expanded="true"] .nav-toggle-bars::before { transform: translateY(5px) rotate(45deg); }
   .nav-toggle[aria-expanded="true"] .nav-toggle-bars span { opacity: 0; }
   .nav-toggle[aria-expanded="true"] .nav-toggle-bars::after { transform: translateY(-5px) rotate(-45deg); }
-  .js .site-nav { position: absolute; left: calc(-1 * var(--gutter)); right: calc(-1 * var(--gutter)); top: 100%; display: none; background: #fff; border-top: 1px solid var(--line); box-shadow: 0 16px 30px rgba(22, 24, 29, .14); }
+  .js .site-nav { position: absolute; left: 0; right: 0; top: 100%; display: none; background: #fff; border-top: 1px solid var(--line); box-shadow: 0 16px 30px rgba(22, 24, 29, .14); }
   .js .site-nav.is-open { display: block; }
   .site-nav ul { flex-direction: column; gap: 2px; padding: 10px var(--gutter) 18px; }
   .site-nav a { display: flex; padding: 14px 12px; font-size: 1.05rem; border-radius: 10px; }
